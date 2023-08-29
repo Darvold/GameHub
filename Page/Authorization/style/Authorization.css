@@ -1,0 +1,135 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+}
+
+header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	padding: 20px 100px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	z-index: 99;
+}
+
+.form-box {
+	background-color: hsla(0, 0%, 100%, 0.80);
+	width: 440px;
+	height: 360px;
+	border: 2px solid black;
+	border-radius: 30px;
+
+}
+.form-box h2 {
+	justify-content: center;
+	justify-items: center;
+	display: flex;
+	margin-top: 14px;
+}
+.form-box .input-box, .input-box-2 {
+	margin-left: 30px;
+	justify-items: center;
+	display: flex;
+	margin-top: 9px;
+}
+
+.input-box, .input-box-2 {
+  position: relative;
+  text-align: center;
+  height: 100%;
+
+}
+
+.input-box::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 25px; /* Расстояние от правого края */
+  transform: translateY(-50%);
+  width: 43px; /* Ширина иконки */
+  height: 43px; /* Высота иконки */
+  background-image: url("../../Icons/icon/Email.svg");
+  background-size: cover;
+}
+.input-box-2::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 25px; /* Расстояние от правого края */
+  transform: translateY(-50%);
+  width: 43px; /* Ширина иконки */
+  height: 43px; /* Высота иконки */
+  background-image: url("../../Icons/icon/Password.svg");
+  background-size: cover;
+}
+
+/* Настройка стилей input и label */
+.input-box input, .input-box-2 input {
+  padding-right: 30px; /* Учитывает ширину иконки */
+  width: 330px;
+  height: 40px;
+  font-size: 20px;
+}
+
+.form, label {
+	display: flex;
+	width: 100%;
+  margin-left: 30px;
+  margin-top: 16px;
+  font-size: 19px;
+}
+
+
+.button_class {
+		justify-content: center;
+	justify-items: center;
+	display: flex;
+}
+.btn {
+	border-radius: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width: 150px;
+	height: 40px;
+	color: white;
+	background-color: black;
+	transition: color 0.3s, background-color 0.3s;
+}
+.btn:hover {
+
+	color: white;
+	background-color: #707070FF;
+}
+.remember-forgot, .login-register {
+	margin-top: 10px;
+	margin-left: 30px;
+}
+
+
+.msg {
+			margin-top: 15px;
+	border: 2px solid #d90000;
+		background-color: hsla(0, 0%, 100%, 0.60);
+	width: 440px;
+	height: 100%;
+	border-radius: 30px;
+	padding: 6px;
+	text-align: center;
+	font-weight: bold;
+}
+.msg_green {
+		margin-top: 15px;
+	border: 2px solid #009c27;
+		background-color: hsla(0, 0%, 100%, 0.60);
+	width: 440px;
+	height: 40px;
+	border-radius: 30px;
+	padding: 10px;
+	text-align: center;
+	font-weight: bold;
+}

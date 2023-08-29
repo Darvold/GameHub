@@ -1,0 +1,167 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+background-color: #343541;
+}
+
+/*тело*/
+.main-body {
+
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  height: 805px;
+  padding: 4px;
+}
+.main {
+  display: flex;
+  background-color: #334;
+  height: 100%;
+  width: 70%;
+  border-radius: 12px;
+  box-shadow: 0px 4px 18px -5px #DDDDDDFF;
+}
+.right-block-content {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.head-form-name {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 5px;
+  color: #EFEFEFFF;
+  font-size: 29px;
+}
+.head-form-border {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.border-button {
+  width: 90%;
+  border-bottom: 3px solid #DDDDDDFF;
+}
+.body-content-inf {
+  width: 90%;
+  margin: 20px;
+}
+.text-info {
+  color: white;
+  font-size: 25px;
+}
+img {
+  width: 190px;
+}
+.update-submit {
+  width: 120px;
+  font-size: 20px;
+  border-radius: 5px;
+  transition: 0.4s ease;
+}
+.update-submit:hover {
+  background-color: rgba(51, 187, 204, 1);
+}
+.cencel-submit {
+  width: 120px;
+  font-size: 20px;
+  border-radius: 5px;
+  transition: 0.4s ease;
+}
+.cencel-submit:hover {
+  background-color: rgba(51, 187, 204, 1);
+}
+.confirm-submit {
+    width: 150px;
+  font-size: 20px;
+  border-radius: 5px;
+  transition: 0.4s ease;
+}
+.confirm-submit:hover {
+  background-color: rgba(51, 187, 204, 1);
+}
+.preview-container {
+  display: flex;
+}
+.flex-img-delete {
+  width: 120px;
+  height: 100%;
+}
+.remove-btn {
+  opacity: 0.4;
+width: 70px;
+border-radius: 4px;
+transition: 0.4s ease;
+}
+.remove-btn:hover {
+  opacity: 1;
+}
+.image-preview {
+  width: 100%;
+  max-height: 180px;
+}
+.position-button {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  bottom: 24px;
+}
+
+.preview-container-block {
+  width: 100%;
+  height: 200px;
+  display: flex;
+align-items: center;
+}
+.head-form-name input {
+  width: 340px;
+  font-size: 17px;
+  padding: 4px;
+  display: flex;
+  text-align: center;
+  border-radius: 5px;
+}
+.head-form-name input {
+  width: 340px;
+  font-size: 17px;
+  padding: 4px;
+  display: flex;
+  text-align: center;
+  border-radius: 5px;
+}
+.text-info-if {
+  font-size: 25px;
+  color: white;
+}
+.text-info-if input {
+  width: 240px;
+  font-size: 15px;
+  padding: 4px;
+  border-radius: 5px;
+}
+.notification-content {
+  width: 100%;
+  justify-content: center;
+  position: absolute;
+  display: flex;
+}
+.notification {
+  display: flex;
+  margin-top: 10px;
+  justify-content: center;
+  position: fixed;
+  width: 300px;
+  padding: 10px;
+  background-color: rgba(51, 187, 204, 1);
+  color: white;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+  z-index: 1000;
+  font-size: 20px;
+}

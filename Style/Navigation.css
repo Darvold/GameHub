@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+}
+
+.up_menu {
+		background-color: black;
+}
+.CSHub {
+	display: flex;
+}
+
+
+.Logo-name {
+	display: flex;
+	text-decoration: none;
+}
+
+.logo {
+	font-size: 2em;
+	color: #fff;
+
+
+}
+
+
+.C {
+	color: #6b7bab;
+}
+
+.S {
+	color: #bbe0f1;
+}
+
+.H {
+	color: #e38892;
+}
+
+
+.svg {
+	height: 50px;
+	width: 50px;
+	margin-right: 10px;
+}
+
+.navigation a {
+	position: relative;
+	font-size: 1.1em;
+	color: #fff;
+	text-decoration: none;
+	font-weight: 500;
+	margin-left: 20px;
+}
+
+.navigation a::after {
+	content: '';
+	position: absolute;
+	left: 0;
+	bottom: -6px;
+	width: 100%;
+	height: 3px;
+	background: #fff;
+	border-radius: 5px;
+	transform-origin: right;
+	transform: scaleX(0);
+	transition: transform .5s;
+}
+
+.navigation a:hover:after {
+	transform-origin: left;
+	transform: scaleX(1);
+}
+
+.navigation .btnLogin-popup {
+	width: 120px;
+	height: 50px;
+	padding: 5px;
+	background: transparent;
+	border: 1px solid #fff;
+	outline: none;
+	border-radius: 5px;
+	cursor: pointer;
+	font-size: 1.1em;
+	color: #fff;
+	font-weight: 500;
+	margin-left: 10px;
+	transition: .5s;
+}
+
+.navigation .btnLogin-popup:hover {
+	background: #fff;
+	color: #162938;
+}
